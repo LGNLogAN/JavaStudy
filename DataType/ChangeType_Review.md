@@ -32,13 +32,14 @@ System.out.println(dnum);
 ```
 
 실행 값
-<pre>10</pre>
-
+<pre>10</pre>   
+   
 [ ChangeType_2 Code ]
 ```java
 double dnum2 = 20;
 int n2 = dnum2; <- 오류발생
 ```
+실행값
 <pre>에러발생</pre>
  
 위 코드는 8byte 인 Double형인 dnum2를 4byte 인 Int 형인 num2 에 대입하려고 한다.   
