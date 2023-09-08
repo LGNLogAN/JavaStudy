@@ -36,6 +36,7 @@ System.out.println(dnum);
 <br>
 <br>
 <br>
+
 [ ChangeType_2 Code ]
 ```java
 double dnum2 = 20;
