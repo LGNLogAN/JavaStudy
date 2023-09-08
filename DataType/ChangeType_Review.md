@@ -23,7 +23,11 @@ public static void main(String[] args) {
 연산을 해야한다.
 
 # 묵시적형변환
-<em>바이트 크기가 작은 자료형에서 큰 자료형으로 대입하는 경우</em>   
+<em>바이트 크기가 작은 자료형에서 큰 자료형으로 대입하는 경우</em>
+<br>
+<br>
+<br>
+
 [ ChangeType_1 Code ]
 ```java
 int n = 10;
