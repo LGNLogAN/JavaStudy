@@ -46,7 +46,7 @@ System.out.println(dnum);
 double dnum2 = 20;
 int n2 = dnum2; <- 오류발생
 ```
-실행값
+실행 값
 <pre>에러발생</pre>
  
 위 코드는 8byte 인 Double형인 dnum2를 4byte 인 Int 형인 num2 에 대입하려고 한다.   
@@ -66,8 +66,8 @@ double dnum2 = 20;
 //int n2 = dnum2; <- 오류발생
 int n2 = (int)dnum2;
 ```
-
-<pre>Console > <br>20</pre>
+실행 값
+<pre>20</pre>
 
 위 코드는  <strong>8byte</strong> 인 <strong>Double</strong>형인 dnum2를 <strong>4byte</strong> 인 <strong>Int</strong> 형인 num2 에 대입 하려고 했을 때 자료손실로 인한   
 오류로 형변환이 불가능 했다면 
