@@ -1,3 +1,4 @@
+예제 DatatypePractice.java
 ```java
 package DataType;
 
@@ -16,3 +17,5 @@ package DataType;
       }
 }
 ```
+
+ㅇ
