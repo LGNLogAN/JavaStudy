@@ -48,8 +48,7 @@ int n2 = dnum2; <- 오류발생
 <pre>에러발생</pre>
  
 위 코드는 8byte 인 Double형인 dnum2를 4byte 인 Int 형인 num2 에 대입하려고 한다.   
-이 과정에서 byte 의 용량이 더 큰 Double이 자료손실이 발생할 수 있으므로   
-에러가 발생하게 된다.   
+이 과정에서 byte 의 용량이 더 큰 Double이 자료손실이 발생할 수 있으므로   에러가 발생하게 된다.   
 반대로 4byte 인 Int 형이 8byte 인 double 형에 대입을 하는 [ ChangeType_1 Code ] 같은 코드에는 자료손실이 없다.   
 <br>
 # 명시적 형 변환
