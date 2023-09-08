@@ -1,4 +1,7 @@
-예제 ChangeType.java
+# 묵시적 형 변환 과 명시적 형 변환
+
+
+[ ChangeType.java Code ]
 
 ```java
 package DataType;
