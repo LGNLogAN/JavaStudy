@@ -1,4 +1,4 @@
-```
+```java
 package DataType;
 
 public class ChangeType {
