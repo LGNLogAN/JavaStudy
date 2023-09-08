@@ -1,4 +1,4 @@
-예제 DatatypePractice.java[^1]
+예제 DatatypePractice.java
 ```java
 package DataType;
 
