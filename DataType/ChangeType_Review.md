@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	System.out.println(dnum);
 	
 	double dnum2 = 20;
-//		int n2 = dnum2;
+//	int n2 = dnum2;
 	int n2 = (int)dnum2;
 	
 	System.out.println(n2);
