@@ -2,7 +2,9 @@
 
 <pre>
   <code>
+    ```java
     int level = 10;
+    ```
   </code>
 </pre>
 
