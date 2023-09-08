@@ -13,7 +13,7 @@ package DataType;
         
           int ch3 = 67;
           System.out.println(ch3); 
-          System.out.println((char)ch3); // 숫자형인(int) 변수 ch3를 문자 자료형으로 출력하려고 하면 정수값에 해당되는 문자를 출력한다.
+          System.out.println((char)ch3); // 변수 ch3을 자료형으로 출력하려고 하면 정수값에 해당되는 문자를 출력한다.
       }
 }
 ```
