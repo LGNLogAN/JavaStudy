@@ -2,7 +2,7 @@
   <code>
     package DataType;
 
-public class DataTypePractice {
+	public class DataTypePractice {
 
 	public static void main(String[] args) {
 		char ch1 = 'A';
@@ -18,6 +18,5 @@ public class DataTypePractice {
 	}
 
 }
-
   </code>
  </pre>
