@@ -33,7 +33,9 @@ System.out.println(dnum);
 
 실행 값
 <pre>10</pre>   
-   
+<br>
+<br>
+<br>
 [ ChangeType_2 Code ]
 ```java
 double dnum2 = 20;
