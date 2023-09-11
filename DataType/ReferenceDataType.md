@@ -20,7 +20,6 @@
 
 
 # 참조자료형 예시
-<br><br>
 [ ReferenceDateType.java ]<br>
 ```java
 Class Person{
@@ -35,3 +34,8 @@ person1.age = 25;
 
 위 코드는 Person 이란 클래스를 만들고 이 클래스는 다른 곳에서 new 연산자를 사용하여 person1 변수를 생성했다.   
 Person 클래스를 참조하고 있는 person1 변수를 참조 자료형이라고 합니다.
+
+
+
+[ ReferenceDataTypeQuiz.md ]   
+간단한 예제를 풀어보겠습니다.
