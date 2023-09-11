@@ -20,7 +20,7 @@ public class AccountingApp{
 	}
 }
 ```
-<pre>실행값> 
+<pre>실행값 > 
 Value of supply : 10000.0
 Vat : 1000.0
 Total : 11000.0
