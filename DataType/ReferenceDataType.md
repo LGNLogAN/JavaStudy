@@ -17,3 +17,21 @@
 5. LinkedList : 연결 리스트를 나타내는 클래스  
 6. Queue      : 큐를 나타내는 인터페이스  
 7. Stack      : 스택을 나타내는 클래스  
+
+
+# 참조자료형 예시
+<br><br>
+[ ReferenceDateType.java ]<br>
+```java
+Class Person{
+  String name;
+  int age;
+}
+
+Person person1 = new Person();
+person1.name = "john";
+person1.age = 25;
+```
+
+위 코드는 Person 이란 클래스를 만들고 이 클래스는 다른 곳에서 new 연산자를 사용하여 person1 변수를 생성했다.   
+Person 클래스를 참조하고 있는 person1 변수를 참조 자료형이라고 합니다.
