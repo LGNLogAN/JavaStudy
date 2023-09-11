@@ -54,7 +54,7 @@ Value of supply : 10000.0
 Vat : 1000.0
 Total : 11000.0
 </pre>
-
+---
 ```java
 public class AccountingApp {
 	public static double valueOfSupply = 10000.0;
