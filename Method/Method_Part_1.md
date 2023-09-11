@@ -21,6 +21,11 @@ public class EasyMethod {
 }
 ```
 
+<pre>
+실행 값 >  
+Hello World
+</pre>
+
 위 코드는 a() 라는 메소드를 생성하고 그 안에 "Hello World" 를 출력하는 코드입니다.
 
 [ EasyMethod.java ]
@@ -35,6 +40,11 @@ public class EasyMethod {
 	}
 }
 ```
+
+<pre>
+실행 값 >
+8
+</pre>
 
 위 코드는 간단한 더하기를 해주는 메소드를 만들어 출력한 코드입니다.  
 SoEasyMethod.java 예제와 다르게 Int 값으로 값을 받고 Int 값을 돌려주기 위해 함수반환형에 void 가 아닌 int 를 입력해주었습니다.  
