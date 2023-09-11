@@ -27,6 +27,7 @@ Total : 11000.0
 </pre>
 위 코드는 세금을 계산해주는 코드이다. 이 단순한 코드에 메서드를 활용해서 작성해보았다.  
 
+[ AcountingApp_2.java ]
 ```java
 public class AccountingApp {
 	public static double valueOfSupply = 10000.0;
