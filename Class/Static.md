@@ -20,7 +20,7 @@ public class StaticVariables {
 	static int num = 5;
 
 	public static void main(String[] args) {
-    StaticVariables.num = 6;
+   		 StaticVariables.num = 6;
 	}
 }
 ```
