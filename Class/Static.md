@@ -2,7 +2,6 @@
 
 Static 은 '정적인 고정된'이라는 뜻을 가지고있습니다. Static 은 메서드나 변수에 사용이 됩니다.
 
-
 Static 의 특징을 살펴보자면  
 1. 메모리에 고정적으로 할당
 2. 객체 생성 없이 사용할 수 있다.
@@ -11,6 +10,8 @@ Static 의 특징을 살펴보자면
    Static 영역은 모든 객체가 메모리를 공유하는 특징이있고  
    Heap 영역같은 경우는 메모리를 공유하지 않는 특징이있다.
 
+
+## 정적변수 Static Variables  
 
 아래 int num 을 6으로 만드는 예제로 정적변수가 뭔지에 대해 알아보았다.  
 
@@ -36,6 +37,26 @@ public class NoStaticVariables {
 }
 ```
 
-정적변수를 사용했을 경우에는 메모리가 Static 영역으로 저장되어 클래스를 호출해서 (StaticVariables.num=6;) 변경할 수 있다.  
+정적변수를 사용했을 경우에는 메모리가 Static 영역으로 저장되어 클래스를 호출해서 (StaticVariables.num=6;) 접근 할 수 있다.  
 허나 정적변수를 사용하지 않은 경우에는 메모리를 공유하지 않는 특성때문에 객체를 생성하여 변경을 해주어야한다.
 
+## 정적메서드 Static Methods
+
+정적메서드도 정적변수와 사용법이 비슷하다.
+
+아래 두 수를 받아 더해주는 sum이라는 메서드를 이용해 알아보겠다.
+
+```java
+class Method_1{
+	public static int sum(int a , int b) {
+		return a+b;
+	}
+}
+class StaticMethod {
+	public static void main(String[] args) {
+		System.out.println(method_1.sum(2, 5));
+	}
+
+}
+```
+정적변수와 같이 클래스를 호출해서 클래스의 인스턴스를 생성하지 않고 접근할 수 있습니다.
