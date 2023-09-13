@@ -1,4 +1,4 @@
-# OverRiding Vs OverLoading
+# OverLoading
 
 오버라이딩 과 오버로딩은 느낌상 비슷하다.  
 하지만 상속과 관련있는 오버라이딩과는 다르게 오버로딩은 상속과 관련이 없다.  
