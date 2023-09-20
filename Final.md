@@ -61,6 +61,8 @@ public class Final_ex {
 이 처럼 setName 메소드안에 매개변수로 final String name 을 받아서 아래줄인 name = "ex회사"; 로 초기화가 불가능합니다.  
 
 # final 객체
+
+```java
 class Company{
     String name = "회사명";
 
@@ -80,3 +82,4 @@ public class Final_ex {
     	company.setName("ex회사"); //클래스의 필드는 변경가능
     }
 }
+```
