@@ -10,7 +10,7 @@ final int num = 1;
 이 처럼 변수 앞에 final 을 붙이고 초기화를 시키면 이 변수는 더 이상 초기화가 불가능합니다.  
 ```java
 final int num = 1;
-num = 3; // Error
+num = 3; // 컴파일 에러
 ```
 
 
