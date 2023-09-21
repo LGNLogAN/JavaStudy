@@ -6,7 +6,7 @@
 |사용키워드|abstract|interface|
 |사용가능변수|제한없음|static final (상수)||
 |사용가능접근제어자|제한없음|public|
-|사용가능메서드|제한없음|abstract method , default , static , private|
+|사용가능메서드|제한없음|(abstract , default , static , private) method |
 |상속키워드|extends|implements|
 |다중상속|불가능|가능|
 
